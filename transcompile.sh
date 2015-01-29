@@ -1,1 +1,2 @@
-traceur --out ./standard-animation.js ./es6/standard-animation.js
+#!/bin/sh
+compile-modules convert -o standard-animation.js ./es6/standard-animation.js
